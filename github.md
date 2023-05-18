@@ -9,3 +9,11 @@ To create a new branch on GitHub using the terminal, follow these steps:
 7. Push the new branch to remote repositry on github using the ``` git push origin [new-branch-name] ``` command
 
 After completing these steps, you will have created a new branch named ``` [new-branch-name] ```
+
+# Commit branch
+first of all stage all changes by running the command:
+``` git add . ```
+then commit the branch by runnign the following code:
+``` git commit -m "[message]" ```
+push the branch to origin:
+``` git push origin [branch-name] ```
